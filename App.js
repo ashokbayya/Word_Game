@@ -17,7 +17,7 @@ export default class App extends Component {
     this.func1();
   }
 
-//func1() will fetch the random word and its definitions, synonims and antonims
+//func1() will fetch the random word and its definitions, synonims and antonyms
 
   func1() {
 
@@ -288,22 +288,7 @@ export default class App extends Component {
     this.setState({ text: '', guess: 'Loading next word' });
     this.func1();
     this.setState({
-      guess:'',
-      synonim: '',
-      antonym: '',
-      jumble: '',
-      len: 0,
-      first: '',
-      last: '',
-      jshow: true,
-      wlshow: true,
-      fshow: true,
-      lshow: true,
-      col1:'#edf0f2',
-      col2:'#edf0f2',
-      col3:'#edf0f2',
-      col4:'#edf0f2',
-      d1:'',d2:'',d3:'',d4:'',d5:'',d6:'',d7:'',d8:'',d9:'',ds1:true,ds2:true,ds3:true,ds4:true,ds5:true,ds6:true,ds7:true,ds8:true,ds9:true,dc1:'#edf0f2',dc2:'#edf0f2',dc3:'#edf0f2',dc4:'#edf0f2',dc5:'#edf0f2',dc6:'#edf0f2',dc7:'#edf0f2',dc8:'#edf0f2',dc9:'#edf0f2',s1:'',s2:'',s3:'',s4:'',s5:'',s6:'',s7:'',s8:'',s9:'',s10:'',ss1:true,ss2:true,ss3:true,ss4:true,ss5:true,ss6:true,ss7:true,ss8:true,ss9:true,ss10:true,sc1:'#edf0f2',sc2:'#edf0f2',sc3:'#edf0f2',sc4:'#edf0f2',sc5:'#edf0f2',sc6:'#edf0f2',sc7:'#edf0f2',sc8:'#edf0f2',sc9:'#edf0f2',sc10:'#edf0f2',a1:'',a2:'',a3:'',a4:'',a5:'',as1:true,as2:true,as3:true,as4:true,as5:true,ac1:'#edf0f2',ac2:'#edf0f2',ac3:'#edf0f2',ac4:'#edf0f2',ac5:'#edf0f2',Guesses:[],gtitle:false,
+      guess:'',synonim: '',antonym: '',jumble: '',len: 0,first: '',last: '',jshow: true,wlshow: true,fshow: true,lshow: true,col1:'#edf0f2',col2:'#edf0f2',col3:'#edf0f2',col4:'#edf0f2',d1:'',d2:'',d3:'',d4:'',d5:'',d6:'',d7:'',d8:'',d9:'',ds1:true,ds2:true,ds3:true,ds4:true,ds5:true,ds6:true,ds7:true,ds8:true,ds9:true,dc1:'#edf0f2',dc2:'#edf0f2',dc3:'#edf0f2',dc4:'#edf0f2',dc5:'#edf0f2',dc6:'#edf0f2',dc7:'#edf0f2',dc8:'#edf0f2',dc9:'#edf0f2',s1:'',s2:'',s3:'',s4:'',s5:'',s6:'',s7:'',s8:'',s9:'',s10:'',ss1:true,ss2:true,ss3:true,ss4:true,ss5:true,ss6:true,ss7:true,ss8:true,ss9:true,ss10:true,sc1:'#edf0f2',sc2:'#edf0f2',sc3:'#edf0f2',sc4:'#edf0f2',sc5:'#edf0f2',sc6:'#edf0f2',sc7:'#edf0f2',sc8:'#edf0f2',sc9:'#edf0f2',sc10:'#edf0f2',a1:'',a2:'',a3:'',a4:'',a5:'',as1:true,as2:true,as3:true,as4:true,as5:true,ac1:'#edf0f2',ac2:'#edf0f2',ac3:'#edf0f2',ac4:'#edf0f2',ac5:'#edf0f2',Guesses:[],gtitle:false,
     });
   };
 
@@ -315,21 +300,7 @@ reset = () => {
     this.setState({ text: '', guess: '' });
     this.func1();
     this.setState({
-      synonim: '',
-      antonym: '',
-      jumble: '',
-      len: 0,
-      first: '',
-      last: '',
-      jshow: true,
-      wlshow: true,
-      fshow: true,
-      lshow: true,
-      col1:'#edf0f2',
-      col2:'#edf0f2',
-      col3:'#edf0f2',
-      col4:'#edf0f2',
-      d1:'',d2:'',d3:'',d4:'',d5:'',d6:'',d7:'',d8:'',d9:'',ds1:true,ds2:true,ds3:true,ds4:true,ds5:true,ds6:true,ds7:true,ds8:true,ds9:true,dc1:'#edf0f2',dc2:'#edf0f2',dc3:'#edf0f2',dc4:'#edf0f2',dc5:'#edf0f2',dc6:'#edf0f2',dc7:'#edf0f2',dc8:'#edf0f2',dc9:'#edf0f2',s1:'',s2:'',s3:'',s4:'',s5:'',s6:'',s7:'',s8:'',s9:'',ss1:true,ss2:true,ss3:true,ss4:true,ss5:true,ss6:true,ss7:true,ss8:true,ss9:true,sc1:'#edf0f2',sc2:'#edf0f2',sc3:'#edf0f2',sc4:'#edf0f2',sc5:'#edf0f2',sc6:'#edf0f2',sc7:'#edf0f2',sc8:'#edf0f2',sc9:'#edf0f2',s10:'',ss10:true,sc10:'#edf0f2',a1:'',a2:'',a3:'',a4:'',a5:'',as1:true,as2:true,as3:true,as4:true,as5:true,ac1:'#edf0f2',ac2:'#edf0f2',ac3:'#edf0f2',ac4:'#edf0f2',ac5:'#edf0f2',History:[],Guesses:[],gtitle:false,
+      synonim: '',antonym: '',jumble: '',len: 0,first: '',last: '',jshow: true,wlshow: true,fshow: true,lshow: true,col1:'#edf0f2',col2:'#edf0f2',col3:'#edf0f2',col4:'#edf0f2',d1:'',d2:'',d3:'',d4:'',d5:'',d6:'',d7:'',d8:'',d9:'',ds1:true,ds2:true,ds3:true,ds4:true,ds5:true,ds6:true,ds7:true,ds8:true,ds9:true,dc1:'#edf0f2',dc2:'#edf0f2',dc3:'#edf0f2',dc4:'#edf0f2',dc5:'#edf0f2',dc6:'#edf0f2',dc7:'#edf0f2',dc8:'#edf0f2',dc9:'#edf0f2',s1:'',s2:'',s3:'',s4:'',s5:'',s6:'',s7:'',s8:'',s9:'',ss1:true,ss2:true,ss3:true,ss4:true,ss5:true,ss6:true,ss7:true,ss8:true,ss9:true,sc1:'#edf0f2',sc2:'#edf0f2',sc3:'#edf0f2',sc4:'#edf0f2',sc5:'#edf0f2',sc6:'#edf0f2',sc7:'#edf0f2',sc8:'#edf0f2',sc9:'#edf0f2',s10:'',ss10:true,sc10:'#edf0f2',a1:'',a2:'',a3:'',a4:'',a5:'',as1:true,as2:true,as3:true,as4:true,as5:true,ac1:'#edf0f2',ac2:'#edf0f2',ac3:'#edf0f2',ac4:'#edf0f2',ac5:'#edf0f2',History:[],Guesses:[],gtitle:false,
     });
     presentState={};
   };
@@ -349,21 +320,8 @@ get_new_word = () => {
     this.setState({ text: '', guess: '' });
     this.func1();
     this.setState({
-      synonim: '',
-      antonym: '',
-      jumble: '',
-      len: 0,
-      first: '',
-      last: '',
-      jshow: true,
-      wlshow: true,
-      fshow: true,
-      lshow: true,
-      col1:'#edf0f2',
-      col2:'#edf0f2',
-      col3:'#edf0f2',
-      col4:'#edf0f2',
-     d1:'',d2:'',d3:'',d4:'',d5:'',d6:'',d7:'',d8:'',d9:'',ds1:true,ds2:true,ds3:true,ds4:true,ds5:true,ds6:true,ds7:true,ds8:true,ds9:true,dc1:'#edf0f2',dc2:'#edf0f2',dc3:'#edf0f2',dc4:'#edf0f2',dc5:'#edf0f2',dc6:'#edf0f2',dc7:'#edf0f2',dc8:'#edf0f2',dc9:'#edf0f2',s1:'',s2:'',s3:'',s4:'',s5:'',s6:'',s7:'',s8:'',s9:'',ss1:true,ss2:true,ss3:true,ss4:true,ss5:true,ss6:true,ss7:true,ss8:true,ss9:true,sc1:'#edf0f2',sc2:'#edf0f2',sc3:'#edf0f2',sc4:'#edf0f2',sc5:'#edf0f2',sc6:'#edf0f2',sc7:'#edf0f2',sc8:'#edf0f2',sc9:'#edf0f2',s10:'',ss10:true,sc10:'#edf0f2',a1:'',a2:'',a3:'',a4:'',a5:'',as1:true,as2:true,as3:true,as4:true,as5:true,ac1:'#edf0f2',ac2:'#edf0f2',ac3:'#edf0f2',ac4:'#edf0f2',ac5:'#edf0f2',Guesses:[],gtitle:false,
+      synonim: '',antonym: '',jumble: '',len: 0,first: '',last: '',jshow: true,wlshow: true,fshow: true,lshow: true,col1:'#edf0f2',col2:'#edf0f2',
+col3:'#edf0f2',col4:'#edf0f2',d1:'',d2:'',d3:'',d4:'',d5:'',d6:'',d7:'',d8:'',d9:'',ds1:true,ds2:true,ds3:true,ds4:true,ds5:true,ds6:true,ds7:true,ds8:true,ds9:true,dc1:'#edf0f2',dc2:'#edf0f2',dc3:'#edf0f2',dc4:'#edf0f2',dc5:'#edf0f2',dc6:'#edf0f2',dc7:'#edf0f2',dc8:'#edf0f2',dc9:'#edf0f2',s1:'',s2:'',s3:'',s4:'',s5:'',s6:'',s7:'',s8:'',s9:'',ss1:true,ss2:true,ss3:true,ss4:true,ss5:true,ss6:true,ss7:true,ss8:true,ss9:true,sc1:'#edf0f2',sc2:'#edf0f2',sc3:'#edf0f2',sc4:'#edf0f2',sc5:'#edf0f2',sc6:'#edf0f2',sc7:'#edf0f2',sc8:'#edf0f2',sc9:'#edf0f2',s10:'',ss10:true,sc10:'#edf0f2',a1:'',a2:'',a3:'',a4:'',a5:'',as1:true,as2:true,as3:true,as4:true,as5:true,ac1:'#edf0f2',ac2:'#edf0f2',ac3:'#edf0f2',ac4:'#edf0f2',ac5:'#edf0f2',Guesses:[],gtitle:false,
     });
     
   };
@@ -942,39 +900,43 @@ get_new_word = () => {
 //List View of History
 
   _renderItem = ({ item }) => (
+
   <TouchableOpacity style={{alignItems:"center",height:30,margin: 5,padding: 3,borderRadius: 4,flexDirection: 'row',justifyContent: 'space-between',backgroundColor:item.hcol,transform: [{ scaleY: -1 }] }} onPress={() =>{
     if(i==1){
     presentState=this.state;
     i=i+1;
     }
 var coll;
+var str = item.state.jsonData;
+var shuffled = str.split('').sort(function() {return 0.5 - Math.random();}).join('-');
 if(item.hcol == "lightgreen"){
   coll="lightgreen";
   
-  this.setState({text:item.state.text,jsonData:item.state.jsonData,guess:item.state.guess,definition:item.state.definition,synonim:item.state.synonim,antonym:item.state.antonym,jumble:item.state.jumble,len:item.state.len,first:item.state.first,last:item.state.last,jshow:false,wlshow:false,fshow:false,lshow:false, col1:item.state.col1,col2:item.state.col2,col3:item.state.col3,col4:item.state.col4,d1:item.state.definition[1],d2:item.state.definition[2],d3:item.state.definition[3],d4:item.state.definition[4],d5:item.state.definition[5],d6:item.state.definition[6],d7:item.state.definition[7],d8:item.state.definition[8],d9:item.state.definition[9],ds1:false,ds2:false,ds3:false,ds4:false,ds5:false,ds6:false,ds7:false,ds8:false,ds9:false,dc1:item.state.dc1,dc2:item.state.dc2,dc3:item.state.dc3,dc4:item.state.dc4,dc5:item.state.dc5,dc6:item.state.dc6,dc7:item.state.dc7,dc8:item.state.dc8,dc9:item.state.dc9,s1:item.state.synonim[0],s2:item.state.synonim[1],s3:item.state.synonim[2],s4:item.state.synonim[3],s5:item.state.synonim[4],s6:item.state.synonim[5],s7:item.state.synonim[6],s8:item.state.synonim[7],s9:item.state.synonim[8],s10:item.state.synonim[9],ss1:false,ss2:false,ss3:false,ss4:false,ss5:false,ss6:false,ss7:false,ss8:false,ss9:false,ss10:false,sc1:item.state.sc1,sc2:item.state.sc2,sc3:item.state.sc3,sc4:item.state.sc4,sc5:item.state.sc5,sc6:item.state.sc6,sc7:item.state.sc7,sc8:item.state.sc8,sc9:item.state.sc9,sc10:item.state.sc10,a1:item.state.antonym[0],a2:item.state.antonym[1],a3:item.state.antonym[2],a4:item.state.antonym[3],a5:item.state.antonym[4],as1:false,as2:false,as3:false,as4:false,as5:false,ac1:item.state.ac1,ac2:item.state.ac2,ac3:item.state.ac3,ac4:item.state.ac4,ac5:item.state.ac5,
-    History: [
-      ...this.state.History,
-    ],
-    Guesses:[
-      ...item.state.Guesses,
-      {id:play,title:item.title,gcol:coll,}
-    ],
-    gtitle:item.state.gtitle,
-    });
+
+          this.setState({text:item.state.text,jsonData:item.state.jsonData,guess:item.state.guess,definition:item.state.definition,synonim:item.state.synonim,antonym:item.state.antonym,jumble:"'"+shuffled.toUpperCase()+"'",len:item.state.jsonData.length,first:item.state.jsonData[0],last:item.state.jsonData.slice(-1),jshow:false,wlshow:false,fshow:false,lshow:false, col1:item.state.col1,col2:item.state.col2,col3:item.state.col3,col4:item.state.col4,d1:item.state.definition[1],d2:item.state.definition[2],d3:item.state.definition[3],d4:item.state.definition[4],d5:item.state.definition[5],d6:item.state.definition[6],d7:item.state.definition[7],d8:item.state.definition[8],d9:item.state.definition[9],ds1:false,ds2:false,ds3:false,ds4:false,ds5:false,ds6:false,ds7:false,ds8:false,ds9:false,dc1:item.state.dc1,dc2:item.state.dc2,dc3:item.state.dc3,dc4:item.state.dc4,dc5:item.state.dc5,dc6:item.state.dc6,dc7:item.state.dc7,dc8:item.state.dc8,dc9:item.state.dc9,s1:item.state.synonim[0],s2:item.state.synonim[1],s3:item.state.synonim[2],s4:item.state.synonim[3],s5:item.state.synonim[4],s6:item.state.synonim[5],s7:item.state.synonim[6],s8:item.state.synonim[7],s9:item.state.synonim[8],s10:item.state.synonim[9],ss1:false,ss2:false,ss3:false,ss4:false,ss5:false,ss6:false,ss7:false,ss8:false,ss9:false,ss10:false,sc1:item.state.sc1,sc2:item.state.sc2,sc3:item.state.sc3,sc4:item.state.sc4,sc5:item.state.sc5,sc6:item.state.sc6,sc7:item.state.sc7,sc8:item.state.sc8,sc9:item.state.sc9,sc10:item.state.sc10,a1:item.state.antonym[0],a2:item.state.antonym[1],a3:item.state.antonym[2],a4:item.state.antonym[3],a5:item.state.antonym[4],as1:false,as2:false,as3:false,as4:false,as5:false,ac1:item.state.ac1,ac2:item.state.ac2,ac3:item.state.ac3,ac4:item.state.ac4,ac5:item.state.ac5,
+                  History: [
+                    ...this.state.History,
+                  ],
+                  Guesses:[
+                    ...item.state.Guesses,
+                    {id:play,title:item.title,gcol:coll,}
+                  ],
+                  gtitle:true,
+                  });
   
 
 }else{
   coll="#fca092";
 
-this.setState({text:item.state.text,jsonData:item.state.jsonData,guess:item.state.guess,definition:item.state.definition,synonim:item.state.synonim,antonym:item.state.antonym,jumble:item.state.jumble,len:item.state.len,first:item.state.first,last:item.state.last,jshow:false,wlshow:false,fshow:false,lshow:false, col1:item.state.col1,col2:item.state.col2,col3:item.state.col3,col4:item.state.col4,d1:item.state.definition[1],d2:item.state.definition[2],d3:item.state.definition[3],d4:item.state.definition[4],d5:item.state.definition[5],d6:item.state.definition[6],d7:item.state.definition[7],d8:item.state.definition[8],d9:item.state.definition[9],ds1:false,ds2:false,ds3:false,ds4:false,ds5:false,ds6:false,ds7:false,ds8:false,ds9:false,dc1:item.state.dc1,dc2:item.state.dc2,dc3:item.state.dc3,dc4:item.state.dc4,dc5:item.state.dc5,dc6:item.state.dc6,dc7:item.state.dc7,dc8:item.state.dc8,dc9:item.state.dc9,s1:item.state.synonim[0],s2:item.state.synonim[1],s3:item.state.synonim[2],s4:item.state.synonim[3],s5:item.state.synonim[4],s6:item.state.synonim[5],s7:item.state.synonim[6],s8:item.state.synonim[7],s9:item.state.synonim[8],s10:item.state.synonim[9],ss1:false,ss2:false,ss3:false,ss4:false,ss5:false,ss6:false,ss7:false,ss8:false,ss9:false,ss10:false,sc1:item.state.sc1,sc2:item.state.sc2,sc3:item.state.sc3,sc4:item.state.sc4,sc5:item.state.sc5,sc6:item.state.sc6,sc7:item.state.sc7,sc8:item.state.sc8,sc9:item.state.sc9,sc10:item.state.sc10,a1:item.state.antonym[0],a2:item.state.antonym[1],a3:item.state.antonym[2],a4:item.state.antonym[3],a5:item.state.antonym[4],as1:false,as2:false,as3:false,as4:false,as5:false,ac1:item.state.ac1,ac2:item.state.ac2,ac3:item.state.ac3,ac4:item.state.ac4,ac5:item.state.ac5,
-    History: [
-      ...this.state.History,
-    ],
-    Guesses:[
-      ...item.state.Guesses,
-    ],
-    gtitle:item.state.gtitle,
-    });
+          this.setState({text:item.state.text,jsonData:item.state.jsonData,guess:item.state.guess,definition:item.state.definition,synonim:item.state.synonim,antonym:item.state.antonym,jumble:"'"+shuffled.toUpperCase()+"'",len:item.state.jsonData.length,first:item.state.jsonData[0],last:item.state.jsonData.slice(-1),jshow:false,wlshow:false,fshow:false,lshow:false, col1:item.state.col1,col2:item.state.col2,col3:item.state.col3,col4:item.state.col4,d1:item.state.definition[1],d2:item.state.definition[2],d3:item.state.definition[3],d4:item.state.definition[4],d5:item.state.definition[5],d6:item.state.definition[6],d7:item.state.definition[7],d8:item.state.definition[8],d9:item.state.definition[9],ds1:false,ds2:false,ds3:false,ds4:false,ds5:false,ds6:false,ds7:false,ds8:false,ds9:false,dc1:item.state.dc1,dc2:item.state.dc2,dc3:item.state.dc3,dc4:item.state.dc4,dc5:item.state.dc5,dc6:item.state.dc6,dc7:item.state.dc7,dc8:item.state.dc8,dc9:item.state.dc9,s1:item.state.synonim[0],s2:item.state.synonim[1],s3:item.state.synonim[2],s4:item.state.synonim[3],s5:item.state.synonim[4],s6:item.state.synonim[5],s7:item.state.synonim[6],s8:item.state.synonim[7],s9:item.state.synonim[8],s10:item.state.synonim[9],ss1:false,ss2:false,ss3:false,ss4:false,ss5:false,ss6:false,ss7:false,ss8:false,ss9:false,ss10:false,sc1:item.state.sc1,sc2:item.state.sc2,sc3:item.state.sc3,sc4:item.state.sc4,sc5:item.state.sc5,sc6:item.state.sc6,sc7:item.state.sc7,sc8:item.state.sc8,sc9:item.state.sc9,sc10:item.state.sc10,a1:item.state.antonym[0],a2:item.state.antonym[1],a3:item.state.antonym[2],a4:item.state.antonym[3],a5:item.state.antonym[4],as1:false,as2:false,as3:false,as4:false,as5:false,ac1:item.state.ac1,ac2:item.state.ac2,ac3:item.state.ac3,ac4:item.state.ac4,ac5:item.state.ac5,
+              History: [
+                ...this.state.History,
+              ],
+              Guesses:[
+                ...item.state.Guesses,
+              ],
+              gtitle:item.state.gtitle,
+              });
   }
   }}>
     <Text style={{ fontStyle: 'normal', color: 'black' }}>{item.title}</Text>
@@ -997,7 +959,7 @@ this.setState({text:item.state.text,jsonData:item.state.jsonData,guess:item.stat
 
 }
 
-
+//StyleSheet
 const styles = StyleSheet.create({
   button: {
     backgroundColor: 'pink',
