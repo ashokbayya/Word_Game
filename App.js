@@ -200,7 +200,7 @@ export default class App extends Component {
 
 
 
-          <View style={{flex:0.8}}>
+          <ScrollView style={{flex:0.8}}>
 
             <View style={{alignItems: 'center',  margin: 5 }}>
               <TouchableOpacity style={styles.button} onPress={this.get_new_word}>
@@ -235,7 +235,7 @@ export default class App extends Component {
               </TouchableOpacity>
             </View>
 
-          </View>
+          </ScrollView>
 
 
         </View>
