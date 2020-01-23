@@ -1,32 +1,31 @@
 {
   "expo": {
-    "name": "Word_Game_App",
-    "slug": "wordgameapp",
-    "privacy": "public",
+    "name": "guessing_game_reloaded",
+    "description": "Example usage",
+    "slug": "snack-4c5be65f-052d-4a01-af7f-35c9a41b0a01",
+    "privacy": "unlisted",
     "sdkVersion": "36.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "primaryColor": "#cccccc",
+    "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+    "loading": {
+      "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+      "hideExponentText": false
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4",
+        "otf",
+        "xml"
+      ]
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
       "supportsTablet": true
     },
-    "description": "",
-    "githubUrl": "https://github.com/ashokbayya/word-game-app"
-  }
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "Word_Guessing_Game",
+  "name": "guessing_game_reloaded"
 }
